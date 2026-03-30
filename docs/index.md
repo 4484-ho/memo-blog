@@ -17,4 +17,5 @@ title: Index
 
 | カテゴリ | タイトル | リンク |
 |----------|----------|--------|
-| cursor | Cursor のエージェントスキル（プロジェクト） | [Cursor のエージェントスキル（プロジェクト）](./cursor/agent-skills) ||
+| cursor | Cursor のエージェントスキル（プロジェクト） | [Cursor のエージェントスキル（プロジェクト）](./cursor/agent-skills) |
+| repository | work-dir を置きつつ配下は Git 管理外にする | [work-dir を置きつつ配下は Git 管理外にする](./repository/work-dir) |
