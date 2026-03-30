@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/memo-blog/blog","blogTitle":"Blog","authorsListPath":"/memo-blog/blog/authors"}')}}]);
