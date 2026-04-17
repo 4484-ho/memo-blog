@@ -22,6 +22,7 @@ title: Index
 | architecture | C4モデルとStructurizrの調査メモ | [C4モデルとStructurizrの調査メモ](./architecture/c4-structurizr) |
 | books / ソフトウェアアーキテクチャの基礎 | パイプラインアーキテクチャ | [パイプラインアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/pipeline-architecture) |
 | books / ソフトウェアアーキテクチャの基礎 | 第12章 マイクロカーネルアーキテクチャ | [第12章 マイクロカーネルアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/microkernel-architecture) |
+| books / ソフトウェアアーキテクチャの基礎 | 第13章 サービスベースアーキテクチャ | [第13章 サービスベースアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/service-based-architecture) |
 | books / プロダクトマネジメントのすべて | 第7章 プロダクトの What | [第7章 プロダクトの What](./books/プロダクトマネジメントのすべて/chapter-7-product-what) |
 | cucumber | Cucumberの基本概念と仕組み | [Cucumberの基本概念と仕組み](./cucumber/basic-concept) |
 | cursor | Cursor のエージェントスキル（プロジェクト） | [Cursor のエージェントスキル（プロジェクト）](./cursor/agent-skills) |
