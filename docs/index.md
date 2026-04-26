@@ -19,6 +19,7 @@ title: Index
 |----------|----------|--------|
 | ai | AIを組み込むアプリケーション・プロダクトの要件定義のポイント | [AIを組み込むアプリケーション・プロダクトの要件定義のポイント](./ai/requirements-definition) |
 | agents | Superpowers（エージェント向けスキル・ワークフロー） | [Superpowers（エージェント向けスキル・ワークフロー）](./agents/superpowers) |
+| agents | Claude Code CLI をサブプロセスで呼び出し、AIエージェントをアプリに統合する PoC | [Claude Code CLI をサブプロセスで呼び出し、AIエージェントをアプリに統合する PoC](./agents/claude-cli-subprocess-poc) |
 | architecture | C4モデルとStructurizrの調査メモ | [C4モデルとStructurizrの調査メモ](./architecture/c4-structurizr) |
 | books / ソフトウェアアーキテクチャの基礎 | パイプラインアーキテクチャ | [パイプラインアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/pipeline-architecture) |
 | books / ソフトウェアアーキテクチャの基礎 | 第12章 マイクロカーネルアーキテクチャ | [第12章 マイクロカーネルアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/microkernel-architecture) |
