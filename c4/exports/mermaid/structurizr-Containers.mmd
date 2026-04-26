@@ -1,0 +1,22 @@
+graph LR
+  linkStyle default fill:#ffffff
+
+  subgraph diagram ["Container View: Software System"]
+    style diagram fill:#ffffff,stroke:#ffffff
+
+    1["<div style='font-weight: bold'>User</div><div style='font-size: 70%; margin-top: 0px'>[Person]</div><div style='font-size: 80%; margin-top:10px'>A user of my software system.</div>"]
+    style 1 fill:#08427b,stroke:#052e56,color:#ffffff
+
+    subgraph 2 ["Software System"]
+      style 2 fill:#ffffff,stroke:#0b4884,color:#0b4884
+
+      3("<div style='font-weight: bold'>Web Application</div><div style='font-size: 70%; margin-top: 0px'>[Container: Java and Spring Boot]</div><div style='font-size: 80%; margin-top:10px'>Delivers the static content<br />and the single page<br />application.</div>")
+      style 3 fill:#438dd5,stroke:#2e6295,color:#ffffff
+      4("<div style='font-weight: bold'>Database</div><div style='font-size: 70%; margin-top: 0px'>[Container: Relational Database Schema]</div><div style='font-size: 80%; margin-top:10px'>Stores user registration<br />information, hashed<br />authentication credentials,<br />access logs, etc.</div>")
+      style 4 fill:#438dd5,stroke:#2e6295,color:#ffffff
+    end
+
+    1-. "<div>Uses</div><div style='font-size: 70%'>[HTTPS]</div>" .->3
+    3-. "<div>Reads from and writes to</div><div style='font-size: 70%'>[JDBC]</div>" .->4
+
+  end

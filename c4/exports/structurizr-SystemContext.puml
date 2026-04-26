@@ -1,0 +1,24 @@
+@startuml
+title <size:24>System Context View: Software System</size>
+
+set separator none
+left to right direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+
+Person(User, "User", $descr="A user of my software system.", $tags="", $link="")
+System(SoftwareSystem, "Software System", $descr="My software system.", $tags="", $link="")
+
+Rel(User, SoftwareSystem, "Uses", $techn="HTTPS", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml

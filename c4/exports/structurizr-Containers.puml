@@ -1,0 +1,30 @@
+@startuml
+title <size:24>Container View: Software System</size>
+
+set separator none
+left to right direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+!include <C4/C4_Container>
+
+Person(User, "User", $descr="A user of my software system.", $tags="", $link="")
+
+System_Boundary("SoftwareSystem_boundary", "Software System", $tags="") {
+  Container(SoftwareSystem.WebApplication, "Web Application", $techn="Java and Spring Boot", $descr="Delivers the static content and the single page application.", $tags="", $link="")
+  Container(SoftwareSystem.Database, "Database", $techn="Relational Database Schema", $descr="Stores user registration information, hashed authentication credentials, access logs, etc.", $tags="", $link="")
+}
+
+Rel(User, SoftwareSystem.WebApplication, "Uses", $techn="HTTPS", $tags="", $link="")
+Rel(SoftwareSystem.WebApplication, SoftwareSystem.Database, "Reads from and writes to", $techn="JDBC", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml
