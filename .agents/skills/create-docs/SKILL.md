@@ -91,6 +91,24 @@ title: 例：セットアップ
 （本文）
 ```
 
+## static/ 配下ファイルへのリンク
+
+ドキュメント内から `static/` 配下の静的ファイル（Makefile、シェルスクリプト、DSLファイル等）にリンクする場合、`/c4/Makefile` のような絶対パスで書くと Docusaurus のビルド時に壊れたリンクとして検出されビルドが失敗する。
+
+**理由**: Docusaurus は `/` 始まりのリンクをサイト内ルーティングとしてチェックするが、`static/` 配下のファイルはルーティング管理外のため未解決と判定される。
+
+**正しい書き方**: `pathname:///` プレフィックスを使う。これにより Docusaurus はリンクチェックの対象外として扱う。
+
+```markdown
+<!-- NG: ビルドエラーになる -->
+- [Makefile](/c4/Makefile)
+
+<!-- OK: pathname:///を使う -->
+- [Makefile](pathname:///c4/Makefile)
+```
+
+この形式はダウンロードリンクや外部パス参照にも有効。
+
 ## やらないこと（この Skill の範囲外）
 
 - `docusaurus.config.ts` の `editUrl` やデプロイ設定の変更
