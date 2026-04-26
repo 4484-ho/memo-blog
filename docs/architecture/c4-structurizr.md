@@ -124,9 +124,9 @@ all: validate export-plantuml export-mermaid ## 検証 & エクスポート
 
 実際に使用している設定ファイルや出力結果は以下から参照・ダウンロードできます。
 
-- [workspace.dsl](/c4/workspace.dsl)
-- [docker-compose.yml](/c4/docker-compose.yml)
-- [structurizr.sh](/c4/structurizr.sh)
-- [Makefile](/c4/Makefile)
-- [エクスポートされたPlantUML図](/c4/exports/structurizr-SystemContext.puml)
+- [workspace.dsl](pathname:///c4/workspace.dsl)
+- [docker-compose.yml](pathname:///c4/docker-compose.yml)
+- [structurizr.sh](pathname:///c4/structurizr.sh)
+- [Makefile](pathname:///c4/Makefile)
+- [エクスポートされたPlantUML図](pathname:///c4/exports/structurizr-SystemContext.puml)
 
