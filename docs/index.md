@@ -25,6 +25,7 @@ title: Index
 | books / ソフトウェアアーキテクチャの基礎 | 第12章 マイクロカーネルアーキテクチャ | [第12章 マイクロカーネルアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/microkernel-architecture) |
 | books / ソフトウェアアーキテクチャの基礎 | 第13章 サービスベースアーキテクチャ | [第13章 サービスベースアーキテクチャ](./books/ソフトウェアアーキテクチャの基礎/service-based-architecture) |
 | books / プロダクトマネジメントのすべて | 第7章 プロダクトの What | [第7章 プロダクトの What](./books/プロダクトマネジメントのすべて/chapter-7-product-what) |
+| cloudflare | Cloudflare Tunnel 用ドメイン取得の記録 | [Cloudflare Tunnel 用ドメイン取得の記録](./cloudflare/domain-for-tunnel) |
 | cucumber | Cucumberの基本概念と仕組み | [Cucumberの基本概念と仕組み](./cucumber/basic-concept) |
 | cursor | Cursor のエージェントスキル（プロジェクト） | [Cursor のエージェントスキル（プロジェクト）](./cursor/agent-skills) |
 | docusaurus | Docusaurus で Mermaid を使う | [Docusaurus で Mermaid を使う](./docusaurus/mermaid) |
